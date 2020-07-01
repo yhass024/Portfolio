@@ -44,8 +44,9 @@ h1 {
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: rgb(183, 185, 186);
   padding: 10px;
+  border-radius: 10%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -63,5 +64,15 @@ h1 {
 }
 
 body {
-  background: linear-gradient(rgb(245, 249, 228), rgb(43, 186, 172));
+  background: linear-gradient(rgb(46, 227, 215), rgb(74, 118, 118));
+}
+
+.profilepic {
+  border-radius: 25%;
+}
+
+.icon {
+  width: 250px;
+  height: 200px;
+  border-radius: 10%;
 }
